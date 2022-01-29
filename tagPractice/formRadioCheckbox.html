@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio & Checkbox</title>
+</head>
+<body>
+    <!-- Radio 버튼은 하나만 고를 때
+    Checkbox 버튼은 다중 선택 시 -->
+
+    <!-- name 값을 같게 하면 서로 연관된거라 하나 라디오 버튼 누르면 다른 하나는 해제된다 -->
+    <form action="" method="GET">
+        <!-- 
+            name따라 radio 그룹 지을 수 있음
+            같은 그룹 내에서는 다중선택 불가
+
+            name-value 형태
+         -->
+
+         <!-- 구독, 미구독 그룹 -->
+        <input type="radio" value="subscribed" name="subscription" id="subscribed" />
+        <label for="subscribed">구독</label>
+
+        <input type="radio" value="unsubscribed" name="subscription" id="unsubscribed" />
+        <label for="unsubscribed">미구독</label>
+
+        <hr />
+         <!-- 사과, 바나나 그룹 -->
+        <input type="radio" value="apple" name="fruit" id="apple" />
+        <label for="apple">사과</label>
+
+        <input type="radio" value="banana" name="fruit" id="banana" />
+        <label for="banana">바나나</label>
+
+        <button type="submit">Submit</button>
+
+        <!-- 
+            최종 url 구독, 바나나 선택시
+            radio_checkbox.html?subscription=subscribed&fruit=banana
+        -->
+
+    </form>
+
+    <h1>사용 가능 언어</h1>
+    <form action="" method="GET">
+        <label for="html">HTML</label>
+        <input type="checkbox" name="skiils" value="html" id="html">
+
+        <label for="html">CSS</label>
+        <input type="checkbox" name="skiils" value="css" id="css">
+
+        <label for="html">JS</label>
+        <input type="checkbox" name="skiils" value="js" id="js">
+
+        <button type="submit">Submit</button>
+
+        <!-- 
+            HTML, CSS 선택시 URL
+            radio_checkbox.html?skiils=html&skiils=css 
+        -->
+        
+    </form>
+</body>
+</html>

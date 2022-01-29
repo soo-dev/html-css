@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media - Audios &amp; videos </title>
+</head>
+<body>
+    <!-- <audio src="./assets/audios/kimbug.mp3" controls></audio>
+    <audio src="./assets/audios/kimbug.ogg" controls></audio>
+    <audio src="./assets/audios/kimbug.wav" controls></audio>
+    <video src="./assets/videos/kimbug.mov" controls></video>
+    <video src="./assets/videos/kimbug.mp4" controls></video> -->
+
+    <!-- source 태그 사용 -->
+    <audio controls>
+        <source src="./assets/audios/kimbug.mp3" type="audio/mpeg">
+        <source src="./assets/audios/kimbug.wav" type="audio/wav">
+        <source src="./assets/audios/kimbug.ogg" type="audio/ogg">
+        <p>
+            <!-- 지원유무확인 사이트 caniuse.com -->
+            당신의 브라우저에는 지원되지 않는 오디오 형식입니다.  
+        </p>
+    </audio>
+    <video>
+        <source src="./assets/videos/kimbug.mov" type="video/mov">
+        <source src="./assets/videos/kimbug.mp4" type="video/mp4">
+        <p>
+            당신의 브라우저에는 지원되지 않는 비디오 형식입니다.
+        </p>
+    </video>
+
+</body>
+</html>
