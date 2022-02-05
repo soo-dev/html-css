@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  /* 
+    원했던 480 x 480 이 만들어짐
+  */
+}
+
+.box {
+  width: 480px;
+  height: 480px;
+  background-color: #0066ff;
+  color: #fff;
+  padding-top: 40px;
+  padding-left: 50px;
+  /* 
+  막상 보면 width: 530, height: 520임
+  ---> Box sizing 필요
+
+    * {
+        box-sizing: content-box; --> 기본 설정
+        ---> width, height은 content만의 사이즈로 설정 되어있다는 것
+    }
+
+  */
+}
