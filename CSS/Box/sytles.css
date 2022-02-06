@@ -5,6 +5,11 @@
   */
 }
 
+body {
+  width: 500px;
+  margin: auto;
+}
+
 .box {
   width: 480px;
   height: 480px;
@@ -22,4 +27,19 @@
     }
 
   */
+}
+
+.parent {
+  background-color: palevioletred;
+  width: 300px;
+}
+
+.child {
+  background-color: peachpuff;
+  width: 150px;
+}
+
+.another {
+  background-color: plum;
+  width: 50px;
 }
