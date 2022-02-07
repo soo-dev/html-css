@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.pseudo::before {
+  content: "📚";
+  clear: left;
+}
+
+.pseudo::after {
+  content: "!";
+  clear: left;
+}
