@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  text-align: center;
+  font-family: "Poppin";
+  font-size: 20px;
+}
+
+.float_parent {
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+  /* background-color: #000; */
+}
+
+.float-child-1 {
+  float: left;
+  background-color: #ff4949;
+  color: #fff;
+  width: 200px;
+  height: 200px;
+  /* opacity: 0.5; */
+}
+
+.float-child-2 {
+  float: left;
+  background-color: #ffc82c;
+  color: #fff;
+  width: 200px;
+  height: 200px;
+}
+
+.float-child-3 {
+  float: left;
+  background-color: #0066ff;
+  color: #fff;
+  width: 200px;
+  height: 200px;
+}
+
+.black {
+  background-color: black;
+  color: #fff;
+}
