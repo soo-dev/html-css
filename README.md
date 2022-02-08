@@ -1,4 +1,6 @@
-# 김버그의 HTML & CSS는 재밌다  포트폴리오
+# 📚 STUDY HTML & CSS
 
-##### copyright 
-https://edu.goorm.io/learn/lecture/20583/%EA%B9%80%EB%B2%84%EA%B7%B8%EC%9D%98-html-css%EB%8A%94-%EC%9E%AC%EB%B0%8C%EB%8B%A4
+
+
+##### ⓒ 김버그의 HTML & CSS는 재밌다 
+LINK: https://edu.goorm.io/learn/lecture/20583/%EA%B9%80%EB%B2%84%EA%B7%B8%EC%9D%98-html-css%EB%8A%94-%EC%9E%AC%EB%B0%8C%EB%8B%A4
