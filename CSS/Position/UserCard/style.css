@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #e5e5e5;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #273444;
+}
+
+/* ▼ WHERE YOUR CODE BEGINS */
+
+.user-card {
+  margin: 10px 10px;
+  max-width: 240px;
+  /* height: 56px; */
+  background-color: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+
+.user-card::after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.user-photo {
+  margin: 8px 12px;
+  float: left;
+}
+
+.user-photo img {
+  /* img 태그에는 inline 요소지만 width, height 먹는 특이한 예외여서
+    css적 버그 줄이기 위해 block 걸어주는게 좋음 */
+  display: block;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.user-status {
+  border: 2px solid #fff;
+  position: relative;
+  bottom: 12px;
+  left: 32px;
+  display: block;
+  background-color: #21d891;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.user-name {
+  padding: 16px 0px 16px 0px;
+}
