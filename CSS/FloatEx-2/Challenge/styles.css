@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: -0.02em;
+  background-color: #000;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1f2d3d;
+  line-height: 1.25;
+}
+
+strong {
+  font-size: 14px;
+  font-weight: 400;
+  color: #afb3b9;
+  line-height: 1.4285714286;
+}
+
+p {
+  font-size: 16px;
+  color: #79818b;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mail-card {
+  background-color: #fff;
+  max-width: 531px;
+  margin-right: 0px;
+}
+
+.mail-item {
+  height: 120px;
+  padding: 20px 20px;
+}
+
+.mail-item::after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.mail-preview {
+  float: left;
+}
+
+.sender {
+  padding-bottom: 12px;
+}
+
+.user {
+  float: left;
+  padding-right: 20px;
+}
+
+.user a {
+  width: 0;
+}
+
+.user img {
+  border-radius: 100px;
+  height: 44px;
+  width: 44px;
+}
