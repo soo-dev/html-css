@@ -15,7 +15,7 @@
 - [ ] css practice
   - [x] Box
   - [x] Float
-  - [ ] Position
+  - [x] Position
   - [ ] Flexbox
   - [ ] Media Query
   - [ ] Typography
