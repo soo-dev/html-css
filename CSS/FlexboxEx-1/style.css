@@ -19,16 +19,15 @@ a {
   padding-left: 0;
   border-bottom: 1px solid #e5eaef;
   list-style-type: none;
-}
-
-.tab-menu::after {
-  content: "";
-  display: block;
-  clear: both;
+  display: flex;
+  /* 기본값들이라 안해줘도 됨 */
+  /* flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start; */
+  align-items: center;
 }
 
 .tab-menu-item {
-  float: left;
   margin-right: 16px;
 }
 
@@ -49,5 +48,3 @@ a {
   display: block;
   padding: 16px 20px;
 }
-
-/* ▼ WHERE YOUR CODE BEGINS */
