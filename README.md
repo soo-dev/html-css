@@ -16,8 +16,8 @@
   - [x] Box
   - [x] Float
   - [x] Position
-  - [ ] Flexbox
-  - [ ] Media Query
+  - [x] Flexbox
+  - [x] Media Query
   - [ ] Typography
   - [ ] Background
   - [ ] Transition & Animation
