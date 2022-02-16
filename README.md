@@ -18,8 +18,8 @@
   - [x] Position
   - [x] Flexbox
   - [x] Media Query
-  - [ ] Typography
-  - [ ] Background
+  - [x] Typography
+  - [x] Background
   - [ ] Transition & Animation
   - [ ] Etc. (Box shadow, Opacity, Overflow, Transform, Visibility)
   - [ ] Selectors
