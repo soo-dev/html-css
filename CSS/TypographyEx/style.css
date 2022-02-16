@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 736px;
+  height: 100vh;
+  padding: 48px 48px;
+}
+
+.header {
+  margin-bottom: 48px;
+}
+
+.section-title {
+  margin-bottom: 8px;
+}
+
+.section-title-strong {
+  margin-bottom: 24px;
+}
+
+.section-content {
+  margin-bottom: 32px;
+}
