@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 100px;
+  text-align: center;
+  padding: 0 36px;
+  margin-right: 10px;
+  transition: box-shadow 250ms ease-in-out;
+  cursor: pointer;
+}
+
+.cancle-button {
+  background-color: #ff4949;
+}
+
+.cancle-button:hover {
+  box-shadow: 0 10px 16px 0 rgba(255, 73, 73, 0.35);
+}
+
+.confirm-button {
+  background-color: rgb(9, 206, 102);
+}
+
+.confirm-button:hover {
+  box-shadow: 0 10px 16px 0 rgba(19, 206, 102, 0.35);
+}
