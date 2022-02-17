@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  width: 500px;
+  height: 200px;
+  border: 4px solid #0066ff;
+  /* overflow: hidden; */
+  /* p태그 영역 만큼 스크롤바가 필요한 부분에(height이 초과니까 세로 스크롤 필요한 상태) 생김 */
+  /* overflow: auto; */
+
+  /* 가로, 세로 둘 다 스크롤바 생김 */
+  /* overflow: scroll; */
+
+  /* 내비둬~ */
+  overflow: visible;
+}
