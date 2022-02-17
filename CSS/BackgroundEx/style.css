@@ -50,6 +50,7 @@ span {
   /* background-size: contain; */
   background-position: center center;
   border: none;
+  cursor: pointer;
 }
 
 .card-header {
@@ -142,12 +143,12 @@ span {
 }
 
 .sr-only {
-  color: #fff;
-  opacity: 0;
-  position: fixed;
-  top: -99999;
-  right: -99999;
+  position: absolute;
+  z-index: -100;
+  width: 1px;
+  height: 1px;
   overflow: hidden;
+  opacity: 0;
 }
 
 .property-detail span::after {
