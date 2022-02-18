@@ -20,8 +20,8 @@
   - [x] Media Query
   - [x] Typography
   - [x] Background
-  - [ ] Transition & Animation
-  - [ ] Etc. (Box shadow, Opacity, Overflow, Transform, Visibility)
-  - [ ] Selectors
-  - [ ] Page Layout (Grid system, bootstrap)
+  - [x] Transition & Animation
+  - [x] Etc. (Box shadow, Opacity, Overflow, Transform, Visibility)
+  - [x] Selectors
+  - [x] Page Layout (Grid system, bootstrap)
   - [ ] Final Project
