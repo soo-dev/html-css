@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+}
+
+.visibility-box,
+.display-none-box {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.v-box {
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  background-color: #0066ff;
+  border-radius: 20px;
+}
+
+.d-box {
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  background-color: #008080;
+  border-radius: 20px;
+}
+
+.v-box:hover {
+  visibility: hidden;
+}
+
+.d-box:hover {
+  display: none;
+}
+
+.name-box {
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  width: 200px;
+  background-color: #ff4949;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
