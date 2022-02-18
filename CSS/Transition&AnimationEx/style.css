@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: #151b26;
+}
+
+button,
+input,
+textarea {
+  font-family: "Lato", sans-serif;
+  border: none;
+}
+
+.line-button {
+  position: relative;
+  padding: 18px 30px;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+.line-button::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #0066ff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 250ms ease-in;
+}
+
+.line-button:hover::after {
+  width: 100%;
+}
