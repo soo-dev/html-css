@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: #0066ff;
+  border-radius: 20px;
+  /* 이동해도 자신의 원래 위치를 기억하기 때문에 .text가 빈자리를 채우지 않고 그대로 있다 */
+  transform: translate(100px, 200px);
+}
+
+.rotate_box {
+  width: 100px;
+  height: 100px;
+  background-color: #ff4949;
+  border-radius: 20px;
+  /* 45도 회전 */
+  transform: rotate(45deg);
+}
+
+.scale_box {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: #008080;
+  border-radius: 20px;
+  /* 확대, 축소 */
+  transform: scale(2);
+}
+
+.text {
+  background: #ffec6c;
+}
