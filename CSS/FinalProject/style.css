@@ -1,4 +1,63 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+body {
   font-family: "DM Sans", sans-serif;
+}
+
+/* Custom Grid System - Fix container max-width */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 960px !important;
+  }
+}
+
+/* RESERT CSS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+textarea,
+input,
+button {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  box-shadow: none;
+  outline: none;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  color: #2b292d;
+}
+
+/* Desktop version */
+@media screen and (min-width: 768px) {
+  /* RESERT CSS */
+  p {
+    font-size: 22px;
+    line-height: 1.4545454545;
+  }
 }
