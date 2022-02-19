@@ -53,11 +53,93 @@ p {
   color: #2b292d;
 }
 
+/* Landing */
+.landing {
+  background-color: #fdded8;
+  height: 568px;
+}
+
+.landing-content {
+  padding-top: 154px;
+}
+
+.landing-content h1 {
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+.landing-content p {
+  line-height: 1.375;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.button-group {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-group a {
+  display: inline-block;
+  width: 140px;
+  height: 48px;
+  border-radius: 2px;
+  background-color: #3040c4;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.05em;
+  text-align: center;
+  color: #fff;
+}
+
+.fill-btn.inverted {
+  background-color: #fff;
+  color: #3040c4;
+}
+
+.fill-btn:first-child {
+  margin-right: 8px;
+}
+
 /* Desktop version */
 @media screen and (min-width: 768px) {
   /* RESERT CSS */
   p {
     font-size: 22px;
     line-height: 1.4545454545;
+  }
+
+  /* Landing */
+  .landing-content {
+    padding-top: 120px;
+  }
+
+  .landing-content h1,
+  .landing-content p {
+    margin-bottom: 32px;
+  }
+
+  .landing-content h1 {
+    font-size: 70px;
+    line-height: 1.0285714286;
+  }
+
+  .button-group a {
+    font-size: 18px;
+    line-height: 1.5555555556;
+    width: 160px;
+    height: 56px;
+    padding: 14px;
+  }
+  .landing .button-group .fill-btn:first-child {
+    margin-right: 16px;
   }
 }
