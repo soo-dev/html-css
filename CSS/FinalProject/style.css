@@ -57,6 +57,31 @@ span {
   display: inline-block;
 }
 
+.article {
+  padding: 80px 0;
+}
+
+.article-category {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+.article-title {
+  margin-bottom: 24px;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.0588235294;
+  letter-spacing: -0.03em;
+}
+
+.article-desc {
+  margin-bottom: 32px;
+}
+
 /* Landing */
 .landing {
   background-color: #fdded8;
@@ -144,13 +169,33 @@ span {
 }
 
 /* Program */
-
+.program .article-category {
+  color: #009b4d;
+}
 /* 768px >= (Desktop) */
 @media screen and (min-width: 768px) {
   /* RESERT CSS */
   p {
     font-size: 22px;
     line-height: 1.4545454545;
+  }
+
+  .article {
+    padding-bottom: 96px;
+  }
+
+  .article-category {
+    margin-bottom: 16px;
+    font-size: 22px;
+    line-height: 1.0909090909;
+  }
+  .article-title {
+    margin-bottom: 32px;
+    font-size: 56px;
+    line-height: 1;
+  }
+  .article-desc {
+    margin-bottom: 72px;
   }
 
   /* Landing */
@@ -194,5 +239,10 @@ span {
 
   .service .col-12:first-child .service-desc {
     margin-bottom: 0;
+  }
+
+  /* Program */
+  .program {
+    text-align: center;
   }
 }
