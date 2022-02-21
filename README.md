@@ -24,4 +24,4 @@
   - [x] Etc. (Box shadow, Opacity, Overflow, Transform, Visibility)
   - [x] Selectors
   - [x] Page Layout (Grid system, bootstrap)
-- [ ] CSS Final Project
+- [x] CSS Final Project
