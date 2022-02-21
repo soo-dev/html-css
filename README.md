@@ -1,4 +1,4 @@
-# 📚 STUDY HTML & CSS
+# 📚 STUDY HTML & CSS -> 🏅DONE🏅
 
 <br />
 
@@ -12,7 +12,7 @@
 
 - [x] html practice
 - [x] html twitter markup challenge
-- [ ] css practice
+- [x] css practice
   - [x] Box
   - [x] Float
   - [x] Position
