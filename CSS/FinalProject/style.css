@@ -53,6 +53,10 @@ p {
   color: #2b292d;
 }
 
+span {
+  display: inline-block;
+}
+
 /* Landing */
 .landing {
   background-color: #fdded8;
@@ -132,11 +136,16 @@ p {
 }
 
 .service-desc {
-  margin-bottom: 40px;
   line-height: 1.6;
 }
 
-/* Desktop version */
+.service .col-12:first-child .service-desc {
+  margin-bottom: 40px;
+}
+
+/* Program */
+
+/* 768px >= (Desktop) */
 @media screen and (min-width: 768px) {
   /* RESERT CSS */
   p {
@@ -181,5 +190,9 @@ p {
     margin-bottom: 0;
     font-size: 22px;
     line-height: 1.6;
+  }
+
+  .service .col-12:first-child .service-desc {
+    margin-bottom: 0;
   }
 }
