@@ -53,14 +53,46 @@ p {
   color: #2b292d;
 }
 
+span {
+  display: inline-block;
+}
+
+.article {
+  padding: 80px 0;
+}
+
+.article-category {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+.article-title {
+  margin-bottom: 24px;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.0588235294;
+  letter-spacing: -0.03em;
+}
+
+.article-desc {
+  margin-bottom: 32px;
+}
+
 /* Landing */
 .landing {
   background-color: #fdded8;
-  height: 568px;
 }
 
 .landing-content {
-  padding-top: 154px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .landing-content h1 {
@@ -85,7 +117,7 @@ p {
   align-items: center;
 }
 
-.button-group a {
+.fill-btn {
   display: inline-block;
   width: 140px;
   height: 48px;
@@ -98,6 +130,11 @@ p {
   letter-spacing: -0.05em;
   text-align: center;
   color: #fff;
+  transition: opacity 300ms ease-in-out;
+}
+
+.fill-btn:hover {
+  opacity: 0.5;
 }
 
 .fill-btn.inverted {
@@ -109,7 +146,221 @@ p {
   margin-right: 8px;
 }
 
-/* Desktop version */
+/* Service */
+.service {
+  padding: 80px 0;
+  background-color: #f4f5f7;
+}
+
+.service-title {
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3636363636;
+  letter-spacing: -0.04em;
+}
+
+.service-desc {
+  line-height: 1.6;
+}
+
+.service .col-12:first-child .service-desc {
+  margin-bottom: 40px;
+}
+
+/* Program */
+.program .article-category {
+  color: #009b4d;
+}
+
+.program .col-md-4 {
+  margin-bottom: 20px;
+}
+
+.program .col-md-4:last-child {
+  margin-bottom: 0px;
+}
+
+.program-card {
+  display: block;
+  padding: 24px 0 32px 0;
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  background-color: #fff;
+  transition: background-color 300ms ease-in-out, box-shadow 300ms ease-in-out;
+}
+
+.program-card:last-child {
+  margin-bottom: 0;
+}
+
+.program-card img {
+  margin: 0 auto 16px;
+  display: block;
+  width: auto;
+  height: 195px;
+}
+
+.program-card strong {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3333333333;
+  letter-spacing: -0.02em;
+  transition: color 300ms ease-in-out;
+}
+
+.program-card:hover {
+  cursor: pointer;
+  background-color: #3141c5;
+  color: #fff;
+  box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15),
+    0px 11px 55px rgba(0, 0, 0, 0.07);
+}
+
+.program-card:hover strong {
+  color: #fff;
+}
+
+/* Curriculum */
+.curriculum .article-category {
+  color: #0189d1;
+}
+
+.curriculum .col-md-6:nth-child(2) {
+  display: none;
+}
+
+.curriculum .col-12:first-child a {
+  display: block;
+  margin-bottom: 48px;
+  padding-top: 12px;
+  width: 140px;
+  height: 48px;
+  background-color: #3141c5;
+  border-radius: 2px;
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  text-align: center;
+  color: #fff;
+  transition: opacity 300ms ease-in-out;
+}
+
+.curriculum .col-12:first-child a:hover {
+  opacity: 0.5;
+}
+
+.curriculum .col-12 p {
+  margin-bottom: 32px;
+}
+
+.curriculum .col-12:last-child p {
+  margin-bottom: 0;
+}
+
+.curriculum-desc {
+  font-size: 15px;
+  line-height: 1.4666666667;
+}
+
+/* Banner */
+.banner {
+  padding: 40px 0;
+  background-color: #f2f8fa;
+  text-align: center;
+}
+
+.banner .col-12:first-child {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.banner .col-12:first-child img {
+  width: auto;
+  height: 195px;
+}
+
+.banner .col-12 h1 {
+  font-size: 32px;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.banner .col-12 p {
+  margin-bottom: 24px;
+}
+
+.banner .col-12 .submit-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .col-12 input {
+  display: block;
+  margin-bottom: 8px;
+  padding: 12px 16px;
+  width: 290px;
+  height: 48px;
+  border: none;
+  color: #7b7b7e;
+}
+
+.banner .col-12 button {
+  cursor: pointer;
+  width: 290px;
+  height: 48px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #3040c4;
+  border-radius: 2px;
+  padding: 12px auto;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.05em;
+  color: #fff;
+  transition: opacity 300ms ease-in-out;
+}
+
+.banner .col-12 button:hover {
+  opacity: 0.5;
+}
+
+.banner .col-12 span {
+  font-size: 13px;
+  line-height: 1.5384615385;
+  color: #7b7b7e;
+}
+.banner .col-12 span a {
+  text-decoration: underline;
+  color: #3040c4;
+}
+
+/* Footer */
+.footer-link-list {
+  padding: 24px 15px;
+}
+.footer-link-list a {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #807f81;
+}
+
+.footer-link-list li:last-child a {
+  padding-right: 0;
+  margin-bottom: 0;
+}
+
+/* 768px >= (Desktop) */
 @media screen and (min-width: 768px) {
   /* RESERT CSS */
   p {
@@ -117,9 +368,28 @@ p {
     line-height: 1.4545454545;
   }
 
+  .article {
+    padding-bottom: 96px;
+  }
+
+  .article-category {
+    margin-bottom: 16px;
+    font-size: 22px;
+    line-height: 1.0909090909;
+  }
+  .article-title {
+    margin-bottom: 32px;
+    font-size: 56px;
+    line-height: 1;
+  }
+  .article-desc {
+    margin-bottom: 72px;
+  }
+
   /* Landing */
   .landing-content {
-    padding-top: 120px;
+    height: auto;
+    padding: 120px 0;
   }
 
   .landing-content h1,
@@ -141,5 +411,123 @@ p {
   }
   .landing .button-group .fill-btn:first-child {
     margin-right: 16px;
+  }
+
+  /* Service */
+  .service-title {
+    font-size: 26px;
+    line-height: 1.3076923077;
+  }
+
+  .service-desc {
+    margin-bottom: 0;
+    font-size: 22px;
+    line-height: 1.6;
+  }
+
+  .service .col-12:first-child .service-desc {
+    margin-bottom: 0;
+  }
+
+  /* Program */
+  .program {
+    text-align: center;
+  }
+
+  .program .col-md-4 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 0;
+  }
+
+  /* Curriculum */
+  .curriculum .col-12:first-child a {
+    /* margin-bottom: 66px; */
+    font-size: 18px;
+    line-height: 1.5555555556;
+    width: 160px;
+    height: 56px;
+    padding-top: 14px;
+  }
+
+  .curriculum .col-12 p {
+    margin-bottom: 72px;
+  }
+
+  .curriculum-desc {
+    font-size: 18px;
+    line-height: 1.4444444444;
+    margin-bottom: 0;
+  }
+
+  .curriculum .col-md-6:nth-child(2) {
+    display: block;
+    width: 450px;
+    height: 450px;
+    margin-bottom: 24px;
+  }
+  .curriculum .col-md-6:nth-child(2) img {
+    display: block;
+    width: 450px;
+    height: 450px;
+    padding: 12px 12px;
+  }
+
+  /* Banner */
+  .banner .col-12 {
+    text-align: start;
+  }
+
+  .banner .col-12 h1 {
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    margin-bottom: 16px;
+  }
+
+  .banner .col-12 p {
+    margin-bottom: 24px;
+  }
+
+  .banner .col-12:first-child {
+    text-align: start;
+    padding: 88px 0;
+  }
+
+  .banner .col-12:first-child img {
+    width: auto;
+    height: 285px;
+  }
+
+  .banner .col-12:last-child {
+    padding: 112px 0;
+  }
+
+  .banner .col-12 .submit-form {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 4px;
+  }
+
+  .banner .col-12 input {
+    margin-right: 8px;
+    margin-bottom: 0;
+  }
+
+  .banner .col-12 button {
+    width: 160px;
+    margin: 0;
+  }
+
+  /* Footer */
+  .footer-link-list {
+    display: flex;
+    margin: 16px 0 16px;
+  }
+
+  .footer-link-list a {
+    padding-right: 16px;
+    margin-bottom: 0px;
+    cursor: pointer;
   }
 }
